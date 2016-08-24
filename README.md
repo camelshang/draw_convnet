@@ -2,8 +2,11 @@
 
 Python script for illustrating Convolutional Neural Network (ConvNet)
 
-Example image
-![](https://raw.githubusercontent.com/gwding/draw_convnet/master/convnet_figure.png)
+Example image before
+![](https://raw.githubusercontent.com/camelshang/draw_convnet/master/convnet_fig.png)
+
+Example image after
+![](https://raw.githubusercontent.com/camelshang/draw_convnet/master/convnet_figure.png)
 
 Modified by CamelShang in 2016/8/24
 - add some comments for your personal use
