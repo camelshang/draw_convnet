@@ -164,7 +164,7 @@ if __name__ == '__main__':
         label(top_left_list[ind], text_list[ind] + '\n{}'.format(
             num_list[ind]))
 
-    text_list = ['Flatten\n'] + ['Fully\nconnected']*fc_length
+    text_list = ['Flatten\n'] + ['Full\nconnected']*fc_length
 
     for ind in range(len(size_list)):
         label(top_left_list[ind], text_list[ind], xy_off=[-10, -65])
@@ -182,5 +182,5 @@ if __name__ == '__main__':
 
     fig_dir = './'
     fig_ext = '.png'
-    fig.savefig(os.path.join(fig_dir, 'convnet_fig' + fig_ext),
+    fig.savefig(os.path.join(fig_dir, 'convnet_figure' + fig_ext),
                 bbox_inches='tight', pad_inches=0)
